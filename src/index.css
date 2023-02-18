@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  font-family: 'vazir' !important;
+  background: lightblue;
+  height: 100vh;
+}
+.form-control{
+  border: none !important;
+  border-bottom: 1px solid #ced4da !important;
+}
+
+.form-control:focus{
+  box-shadow: none !important; 
+  border-color: transparent !important;
+}
+textarea{
+  height: 120px !important;
+  resize: none !important;
+}
